@@ -16,4 +16,4 @@ for i in range(9):
             connection.login(user=my_email, password=password)
             connection.sendmail(from_addr=my_email, to_addrs='email to send to',
                                 msg=f"Subject:Found a good flight deal\n\nTfrom {data['data'][0]['cityFrom']} to {data['data'][0]['cityTo']} price: €{data['data'][0]['price']}")
-        print(f"")
+      
